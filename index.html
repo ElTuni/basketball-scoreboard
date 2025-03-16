@@ -6,22 +6,20 @@
     <body>
         <div class="marker">
             <div>
-                <h3 class ="team">HOME</h3>
+                <h3 class="team">HOME</h3>
                 <p class="points" id="count-home">0</p>
-                <button onclick="plus(count_home, 1)">+1</button>
-                <button onclick="plus(count_home, 2)">+2</button>
-                <button onclick="plus(count_home, 3)">+3</button>
+                <button onclick="window.plus(document.getElementById('count-home'), 1)">+1</button>
+                <button onclick="window.plus(document.getElementById('count-home'), 2)">+2</button>
+                <button onclick="window.plus(document.getElementById('count-home'), 3)">+3</button>
             </div>
-            <button id="reset" onclick="reset()">↻</button>
+            <button id="reset" onclick="window.reset()">↻</button>
             <div>
-                <h3 class ="team">AWAY</h3>
+                <h3 class="team">AWAY</h3>
                 <p class="points" id="count-guest">0</p>
-                <button onclick="plus(count_guest, 1)">+1</button>
-                <button onclick="plus(count_guest, 2)">+2</button>
-                <button onclick="plus(count_guest, 3)">+3</button>
+                <button onclick="window.plus(document.getElementById('count-guest'), 1)">+1</button>
+                <button onclick="window.plus(document.getElementById('count-guest'), 2)">+2</button>
+                <button onclick="window.plus(document.getElementById('count-guest'), 3)">+3</button>
             </div>
-            
-            <script src="index.js"></script>
         </div>
         <script type="module" src="/index.js"></script>
     </body>
