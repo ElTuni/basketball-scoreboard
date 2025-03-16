@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s01fqar1ip",
+  "description": "https://scrimba.com/s01fqar1ip/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
